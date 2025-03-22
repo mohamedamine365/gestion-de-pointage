@@ -10,7 +10,7 @@ export const routes: Routes = [
     {path:"",redirectTo:"Consultation-des-acces",pathMatch:"full"},
     {path:"register",component:RegisterComponent},
     {path:"login",component:LoginComponent},
-    {path:"Consultation-des-acces",canActivate:[guardGuard],component:ConsultationComponent},
+    {path:"Consultation-des-acces",component:ConsultationComponent},
     {path:"parametrage-des-acces",component:ParametrageDesAccesComponent},
     {path:"tbd-repartition-des-acces",component:TBDRepartitionDesAccesComponent}
 ];
