@@ -1,5 +1,30 @@
-<h5 class="card-title text-center pb-2 pt-3 my-5">Welcome Amine Jbali !</h5>
-
+<h5 class="card-title text-center pb-1 pt-1 my-5">Welcome Amine Jbali !</h5>
+<div class="card mb-1">
+  
+    <div class="card-body">
+      <form >
+        <div class="row g-3">
+          <div class="col-md-3">
+            <label for="matricule" class="form-label">Matricule</label>
+            <input type="text" class="form-control" id="matricule" formControlName="matricule" 
+                   placeholder="Entrer le Matricule">
+          </div>
+          <div class="col-md-3">
+            <label for="privilege" class="form-label">Privilège</label>
+            <select class="form-select" id="privilege" formControlName="privilege">
+              <option value=""  selected>Admin</option>
+              <option value="" selected>Gestion</option>
+             
+            </select>
+          </div>
+        </div>
+        <div class="mt-1">
+          <button type="submit" class="btn btn-primary me-2" >Ajouter</button>
+          <button type="button" class="btn btn-secondary">Annuler</button>
+        </div>
+      </form>
+    </div>
+  </div>
 <div class="container my-5">
     <div class=" card card-list ">
         <div class="card-body">
@@ -7,28 +32,22 @@
                 <table class="table mt-3">
                     <thead>
                         <tr>
-                            <th scope="col" class="">#</th>
-                            <th scope="col" class="">image</th>
-                            <th scope="col" class="">Firstname</th>
-                            <th scope="col" class="">Lastname</th>
-                            <th scope="col" class="">Email</th>
-                            <th scope="col" class="">Tel</th>
-                            <th scope="col" class="">Adress</th>
-                            <th scope="col" class="">Options</th>
+                            <th scope="col" class="">matricule</th>
+                            <th scope="col" class="">nom et prénom</th>
+                            <th scope="col" class="">privilége</th>
+                            <th scope="col" class="">Etablissement</th>
+                            <th scope="col" class="">Option</th>
+                          
                         </tr>
                     </thead>
     
                     <tbody>
                         <tr>
-                            <td class="py-3">1</td>
-                            <td  class="avatar-md">
-                                <img src="assets/user.png" alt="">
-                            </td>
-                            <td class="fw-regular py-3"> Malek  </td>
-                            <td class="fw-regular py-3"> Ben Abdallah </td>
-                            <td class="fw-regular py-3"> MalekBN.ABgmail.com </td>
-                            <td class="fw-regular py-3">+216 23 254 289  </td>
-                            <td class="fw-regular py-3 "> 28 | 04 | 2023 </td>
+                            <td class="fw-regular py-3">09602113</td>
+                            <td class="fw-regular py-3">Ahmed Ghouil</td>
+                            <td class="fw-regular py-3">Admin</td>
+                            <td class="fw-regular py-3">Ste_Poulina Group Holding</td>
+                         
                         
                             <td class="py-3 d-flex flex-nowrap">
     
@@ -46,85 +65,7 @@
                             </td>
                         </tr>
 
-                        <tr>
-                            <td class="py-3">1</td>
-                            <td  class="avatar-md">
-                                <img src="assets/user.png" alt="">
-                            </td>
-                            <td class="fw-regular py-3"> Malek  </td>
-                            <td class="fw-regular py-3"> Ben Abdallah </td>
-                            <td class="fw-regular py-3"> MalekBN.ABgmail.com </td>
-                            <td class="fw-regular py-3">+216 23 254 289  </td>
-                            <td class="fw-regular py-3"> 28 | 04 | 2023 </td>
-                        
-                            <td class="py-3 d-flex flex-nowrap">
-    
-                                <button 
-                                    class="btn btn-success  rounded-3 waves-effect  p-icon me-1">
-                                    <img style="width: 20px;"
-                                        src="assets/edit-icon.svg" alt="">
-                                </button>
-    
-    
-                                <button type="button"
-                                    class="btn btn-danger rounded-3 waves-effect p-icon mx-2">
-                                    <img src="assets/delete-icon.svg" alt="">
-                                </button>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="py-3">1</td>
-                            <td  class="avatar-md">
-                                <img src="assets/user.png" alt="">
-                            </td>
-                            <td class="fw-regular py-3"> Malek  </td>
-                            <td class="fw-regular py-3"> Ben Abdallah </td>
-                            <td class="fw-regular py-3"> MalekBN.ABgmail.com </td>
-                            <td class="fw-regular py-3">+216 23 254 289  </td>
-                            <td class="fw-regular py-3"> 28 | 04 | 2023 </td>
-                        
-                            <td class="py-3 d-flex flex-nowrap">
-    
-                                <button 
-                                    class="btn btn-success  rounded-3 waves-effect  p-icon me-1">
-                                    <img style="width: 20px;"
-                                        src="assets/edit-icon.svg" alt="">
-                                </button>
-    
-    
-                                <button type="button"
-                                    class="btn btn-danger rounded-3 waves-effect p-icon mx-2">
-                                    <img src="assets/delete-icon.svg" alt="">
-                                </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">1</td>
-                            <td  class="avatar-md">
-                                <img src="assets/user.png" alt="">
-                            </td>
-                            <td class="fw-regular py-3"> Malek  </td>
-                            <td class="fw-regular py-3"> Ben Abdallah </td>
-                            <td class="fw-regular py-3"> MalekBN.ABgmail.com </td>
-                            <td class="fw-regular py-3">+216 23 254 289  </td>
-                            <td class="fw-regular py-3"> 28 | 04 | 2023 </td>
-                        
-                            <td class="py-3 d-flex flex-nowrap">
-    
-                                <button 
-                                    class="btn btn-success  rounded-3 waves-effect  p-icon me-1">
-                                    <img style="width: 20px;"
-                                        src="assets/edit-icon.svg" alt="">
-                                </button>
-    
-    
-                                <button type="button"
-                                    class="btn btn-danger rounded-3 waves-effect p-icon mx-2">
-                                    <img src="assets/delete-icon.svg" alt="">
-                                </button>
-                            </td>
-                        </tr>
+                       
                     </tbody>
                 </table>
     

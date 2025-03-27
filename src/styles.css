@@ -180,40 +180,5 @@ td{
     box-shadow: 8px 10px 20px -5px rgba(0,0,0,0.1);
 }
 
-/* profile page */
-
-.update-title{
-    color: #00024F;
-    font-weight: 700;
-}
-
-.form-col{
-    padding-right: 50px;
-}
-
-input[type="file"] {
-    display: none;
-}
-label{
-    display: block;
-}
-.btn-uploadfile {
-    padding: 10px 15px;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    background-color: rgba(82, 77, 255,0.2);
-    color:#504BFF;
-    border: none;
-    border-radius: 5px;
-}
-
-.form-control.file{
-    padding: 12px 2px;
-}
 
 
-
-.error{
-    border: 2px solid rgb(255, 0, 123);
-}

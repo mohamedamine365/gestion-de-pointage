@@ -1,0 +1,15 @@
+.chart-container {
+    width: 74%;
+  margin-left:150px;
+  }
+.chart-container h1{
+  text-align: center;
+  font-size:x-large;
+ 
+}
+.card{
+    background-color: rgb(150, 255, 255);
+}
+.card-title{
+    text-align: center;
+}
