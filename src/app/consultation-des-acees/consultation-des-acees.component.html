@@ -1,0 +1,41 @@
+<h5 class="card-title text-center pb-2 pt-3 my-5">Welcome {{ user.name + ' ' + user.lastname }} !</h5>
+
+<div class="container my-5">
+    <div class=" card card-list ">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table mt-3">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="">Matricule</th>
+                            <th scope="col" class="">Date de mouvement</th>
+                            <th scope="col" class="">Résultat</th>
+                            <th scope="col" class="">Nom et prénom</th>
+                            <th scope="col" class="">Site Centralisateur</th>
+                            <th scope="col" class="">Etablissement</th>
+                        
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                     
+    
+                            @for( i of list; track i._id; ){
+                                <tr>
+                                  
+                                    <td class="fw-regular py-3"> {{ i.Matricule }} </td>
+                                    <td class="fw-regular py-3"> {{i. Date_de_mouvement }} </td>
+                                    <td class="fw-regular py-3"> {{i.Resultat}}</td>
+                                    <td class="fw-regular py-3"> {{ i.Nom_et_prenom }} </td>
+                                    <td class="fw-regular py-3 "> {{ i. Site_Centralisateur}} </td>
+                                    <td class="fw-regular py-3 "> {{ i. Etablissement}} </td>
+                                  
+                                </tr>
+                              }
+                             
+                    </tbody>
+                </table>
+    
+            </div>
+        </div>
+    </div>
