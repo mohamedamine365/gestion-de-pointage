@@ -12,6 +12,7 @@ import { AthService } from '../services/ath.service';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
+  
   loginForm: FormGroup;
 
   constructor( private fb: FormBuilder, private auth: AthService, private router: Router ){
@@ -42,4 +43,5 @@ export class LoginComponent {
     })
     
   }
+  
 }
